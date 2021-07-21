@@ -1,0 +1,26 @@
+{
+	"name": "@gagn078/pak",
+	"version": "1.0.0",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"license": "MIT",
+	"bin": {
+		"pak": "lib/index.js"
+	},
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"chalk": "^4.1.1",
+		"commander": "^8.0.0",
+		"jest": "^27.0.6",
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"@types/chalk": "^2.2.0",
+		"@types/lodash": "^4.14.171",
+		"@types/node": "^16.3.2"
+	}
+}
